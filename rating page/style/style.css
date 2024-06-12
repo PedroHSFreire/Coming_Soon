@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Overpass", sans-serif;
+}
+@media only screen and (min-width: 375px) {
+  body {
+    background-color: hsl(216, 12%, 8%);
+  }
+  .main_box {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    width: 18rem;
+    height: 22rem;
+    margin-left: 1.8rem;
+    margin-top: 15rem;
+    padding: 1rem;
+  }
+  .star_div {
+    background-color: hsl(216, 12%, 8%);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: 0.4rem;
+  }
+  .star {
+    margin-left: 0.7rem;
+    margin-top: 0.6rem;
+  }
+  .div_text {
+    margin-top: 1.5rem;
+  }
+  h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    height: 700;
+    margin-top: 2rem;
+  }
+  p {
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    height: 400;
+    opacity: 0.5;
+    margin-top: 1.5rem;
+  }
+  ul {
+    display: flex;
+    width: 80%;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  ul,
+  .teste {
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .teste {
+    background-color: hsl(216, 12%, 8%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    border: none;
+  }
+
+  .teste:hover {
+    background-color: hsl(25, 97%, 53%);
+  }
+  .active {
+    background-color: hsl(25, 97%, 53%);
+  }
+  .button {
+    width: 80%;
+    height: 13%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .apperciation-section {
+    text-align: center;
+    display: none;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    width: 18rem;
+    height: 21rem;
+    margin-left: 1.8rem;
+    margin-top: 15rem;
+    padding: 1rem;
+  }
+  .apperciation-img {
+    margin-inline: auto;
+  }
+
+  .pills {
+    width: 60%;
+    padding: 0.2rem 0.8rem;
+    border-radius: 100vw;
+    margin-inline: auto;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+  }
+  .section-title {
+    color: white;
+    margin-top: 2rem;
+  }
+  .versetroca {
+    background-color: grey;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  body {
+    background-color: hsl(216, 12%, 8%);
+  }
+  .main_box {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    width: 22rem;
+    height: 21rem;
+    margin-left: 40%;
+    margin-top: 15rem;
+    padding: 1rem;
+  }
+  .star_div {
+    background-color: hsl(216, 12%, 8%);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: 0.4rem;
+  }
+  .star {
+    margin-left: 0.7rem;
+    margin-top: 0.6rem;
+  }
+  .div_text {
+    margin-top: 1.5rem;
+  }
+  h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    height: 700;
+    margin-top: 2rem;
+  }
+  p {
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+    height: 400;
+    opacity: 0.5;
+    margin-top: 1.5rem;
+  }
+  ul {
+    display: flex;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  ul,
+  .teste {
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .teste {
+    background-color: hsl(216, 12%, 8%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    border: none;
+  }
+
+  .teste:hover {
+    background-color: hsl(25, 97%, 53%);
+  }
+  .active {
+    background-color: hsl(25, 97%, 53%);
+  }
+  .button {
+    width: 80%;
+    height: 13%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .apperciation-section {
+    text-align: center;
+    display: none;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    width: 22rem;
+    height: 21rem;
+    margin-left: 40%;
+    margin-top: 15rem;
+    padding: 1rem;
+  }
+  .apperciation-img {
+    margin-inline: auto;
+  }
+
+  .pills {
+    width: 60%;
+    padding: 0.6rem 0.8rem;
+    border-radius: 100vw;
+    margin-inline: auto;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(25, 97%, 53%);
+  }
+  .section-title {
+    color: white;
+    margin-top: 2rem;
+  }
+  .versetroca {
+    background-color: grey;
+  }
+}
